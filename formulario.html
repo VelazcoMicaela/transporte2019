@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Ejemplo formulario</title>
+	<link rel="stylesheet" href="" />
+</head>
+<body>
+
+	<h1>Etiquetas Formularios</h1>
+	<form action="" method="">
+		<p>
+			<label for="">Nombre</label>
+			<input type="text" />
+		</p>
+		<p>
+			<label for="ape">Apellido</label>
+			<input type="text" id="ape"/>
+		</p>
+		<p>
+			<input type="text" placeholder="Ingrese su mail" />
+		</p>
+		<p>
+			<label for="">Contraseña</label>
+			<input type="password" name="clave" />
+		</p>
+		<p>
+			<label for="">Sexo</label>
+			<ul>
+				<li>
+					<input type="radio" name="sexo" value="mujer">
+					<label for="">Mujer</label>
+				</li>
+				<li>
+					<input type="radio" name="sexo" value="hombre">
+					<label for="">Hombre</label>
+				</li>
+			</ul>
+		</p>
+		<p>
+			<label for="Hobbies"><!-- array -->
+				<ul>
+					<li>
+						<input type="checkbox" name="hobbies[]" value="bailar" />
+						<label for="">Bailar</label>
+					</li>
+					<li>
+						<input type="checkbox" name="hobbies[]" value="cantar" />
+						<label for="">Cantar</label>
+					</li>
+					<li>
+						<input type="checkbox" name="hobbies[]" value="Correr" />
+						<label for="">Correr</label>
+					</li>
+					<li>
+						<input type="checkbox" name="hobbies[]" value="nadar" />
+						<label for="">Nadar</label>
+					</li>
+				</ul>
+			</label>
+		</p>
+
+
+
+
+		<p>
+			<label for="">Titulo</label>
+			<select name="" id="">
+				<option value="primario">Primario</option>
+				<option value="secundario">Secundario</option>
+				<option value="terciario">Terciario</option>
+				<option value="universitario">Universitario</option>
+			</select>
+		</p>
+		<p>
+			<label for="">Comentario</label>
+			<textarea name="" id=""></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Borrar" />
+
+		</p>
+
+
+	</form>
+	
+</body>
+</html>
